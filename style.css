@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 .navbar {
   width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   background-color: #32CD32;
 }
 
@@ -152,6 +152,8 @@ body {
 
 .text {
   text-align: center;
+  width:80%;
+  margin: auto;
 }
 
 .counter-sec{
