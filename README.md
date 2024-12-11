@@ -23,8 +23,7 @@ Ce site a pour but de :
 [Accéder au site ici :](https://jic-dunkerque.com/index.html)
 
 ## Auteur
-Projet réalisé par Adam Lallemant.  
-Pour toute question ou suggestion : (adam.lallemant@gmail.com)
+Projet réalisé par Adam Lallemant.
 
 ---
 
@@ -51,5 +50,4 @@ The purpose of this site is to:
 [Visit the website here:](https://jic-dunkerque.com/index.html)
 
 ## Author
-Project created by Adam Lallemant.  
-For any questions or suggestions, contact: (adam.lallemant@gmail.com)
+Project created by Adam Lallemant.
