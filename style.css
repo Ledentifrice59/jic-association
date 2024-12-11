@@ -128,7 +128,7 @@ input {
   box-sizing: border-box;
 }
 
-img {
+.image {
   height: 100px;
 }
 
@@ -136,4 +136,8 @@ img {
   display: flex;
   align-items:center; /* Aligns the image and text vertically */
   gap: 20px;
+}
+
+.image-organigramme {
+  height : 500px;
 }
