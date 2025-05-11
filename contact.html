@@ -1,51 +1,70 @@
 <!DOCTYPE html>
-<html lang="fr" >
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Jeunes Influenceurs Pour Le Climat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="x-icon" href="logo.png">
 </head>
 <body>
-  <div class="container">
-    <img class="image" src="logo.png">
-    <h1 class="title">JIC</h1>
-  </div>
-  <nav>
-    <a href="/index.html">Home</a>
-    <a href="/actualites.html">Actualités</a>
-    <a href="/contact.html">Contact</a>
-    </div>
-    <div class="animation start-home"></div>
+
+<header>
+  <img src="logo.png" alt="Logo JIC">
+  <h1>Jeunes Influenceurs Pour Le Climat</h1>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#intro">Accueil</a></li>
+      <li><a href="#intro">Actualités</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
-    <script>
-function myFunction() {
-  // Get the text field
+</header>
+
+<section class="title">
+    <h2>Si vous souhaitez nous contacter :</h2>
+</section>
+
+<script>
+    function myFunction() {
   var copyText = document.getElementById("myInput");
 
-  // Select the text field
   copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+  copyText.setSelectionRange(0, 99999);
 
-   // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value);
 
-  // Alert the copied text
   alert("Vous avez copie : " + copyText.value);
-}
-    </script>
-    <div class="text">
-      <br>
-        <h2>Rejoindre les JIC :</h2><br>
-            <input type="text" value="jic.dunkerque@gmail.com" id="myInput">
-            <button onclick="myFunction()" class="button">Copy text</button>
-            <br>
-        <h2>Demande de collaborations :</h2><br>
-            <p><button>Veuillez remplir le formulaire</button></p><br>
-        <h2>Contact :</h2><br>
-            <p>Tel. mobile : <a href="tel:+33766196434">+33 7 66 19 64 34</a></p><br>
-        <h2>Adresse :</h2><br>
-            <p>Terre-Plein du Jeu de Mail, Rue du 11 Novembre 1918, 59140 DUNKERQUE</p>
-    </div>
+    }
+</script>
+
+<section class="text">
+    <p><input type="text" value="jic.dunkerque@gmail.com" id="myInput">
+        <button onclick="myFunction()" class="button">Copy text</button>
+        <br>
+    </p>
+</section>
+
+<section class="title">
+    <h2>Demande de collaborations :</h2>
+    <p><button>Veuillez remplir le formulaire</button></p><br>
+    <h2>Contact</h2>
+</section>
+
+<section class="text">
+    <p>Tel. mobile : <a href="tel:+33766196434">+33 7 66 19 64 34</a></p>
+</section>
+
+<section class="title">
+    <h2>Adresse</h2>
+</section>
+
+<section class="text">
+    <p>Terre-Plein du Jeu de Mail, Rue du 11 Novembre 1918, 59140 DUNKERQUE</p>
+</section>
+
+<footer>
+    © 2025 Jeunes Influenceurs Pour Le Climat
+</footer>
+
 </body>
 </html>
